@@ -26,7 +26,6 @@ const postHome = (req, res) => {
         error: err,
       });
   });
-  //   const { name, phoneNo, email } = req.body;
 };
 const deleteAllData = (req, res) => {
   Person.deleteMany((err) => {
